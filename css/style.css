@@ -1,0 +1,260 @@
+/*fonts start*/
+@font-face {
+    font-family: PlayfairDisplay-Italic;
+    src: url(//fonts/playfair/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+
+    font-family: PlayfairDisplay;
+    src: url(//fonts/playfair/PlayfairDisplay-VariableFont_wght.ttf);
+
+    font-family: Ubuntu-Light;
+    src: url(//fonts/ubuntu/Ubuntu-Light.ttf);
+
+    font-family: Inconsolata;
+    src: url(//fonts/inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+/*
+h1{
+    font-family: 'PlayfairDisplay', serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+h2{
+    font-family: 'PlayfairDisplay-Italic', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+*/
+
+/*fonts end*/
+
+/*Common Start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'PlayfairDisplay',serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*Common End*/
+
+/*header start*/
+header{
+    padding: 20px 0;
+    /*border: 1px solid black;*/
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+   /* border: 1px solid red;*/
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+    width: 15%;
+   /* border: 1px solid aqua;*/
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 60%;
+    /*border: 1px solid blueviolet;*/
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    /*margin: 0px 30px;*/
+    
+}
+.menu ul li a{
+    margin: 0 35px;
+    padding: 4px 2px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+    margin-right: 0px;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*Banner start*/
+.banner{
+    padding: 100px 0;
+}
+
+.b_img img{
+    width: 100%;
+}
+/*Banner end*/
+
+/*Perfect Start*/
+
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /*border: 1px solid blue;*/
+}
+
+.c_light{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:  #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    line-height: 25px;
+}
+
+.mb_40{
+    margin-bottom: 40px;
+}
+/*Perfect End*/
+
+/*Blog Start*/
+/*First Start*/
+
+.container2{
+    overflow: hidden;
+}
+.first{
+    float: left;
+    width: 45%;
+}
+
+/*First End*/
+
+/*Second start*/
+.second{
+    float: right;
+    width: 45%;
+}
+/*Second End*/
+
+/*Third start*/
+.third{
+    float: left;
+    width: 45%;
+}
+/*Third End*/
+
+/*Forth start*/
+.forth{
+    float: right;
+    width: 45%;
+}
+/*Forth End*/
+/*Fifth start*/
+.fifth{
+    float: left;
+    width: 45%;
+}
+/*Fifth End*/
+
+/*Sixth start*/
+.sixth{
+    float: right;
+    width: 45%;
+}
+/*Sixth End*/
+/*Blog End*/
+
+/*News Start*/
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+/*News End*/
+/*Signup Start*/
+.signup{
+    text-align: center
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    /*border: 2px solid red;*/
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: 'PlayfairDisplay',serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    /*border-bottom: 1px solid #333333;*/
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+
+/*Signup End*/
+/*News End*/
+
+
+.container3{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*Load Start*/
+/*
+.load{
+    position: relative;
+}*/
+.container3 button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    align-items: center;
+    border: 1px solid #333333;
+}
+/*Load End*/
+
+/*Youtube 16:07*/
